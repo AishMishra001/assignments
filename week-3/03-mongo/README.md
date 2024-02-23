@@ -22,7 +22,7 @@ You need to use mongodb to store all the data persistently.
   Description: Creates a new admin account.
   Input Body: { username: 'admin', password: 'pass' }
   Output: { message: 'Admin created successfully' }
-- POST /admin/courses
+- POST /admin/courses //
   Description: Creates a new course.
   Input: Headers: { 'username': 'username', 'password': 'password' }, Body: { title: 'course title', description: 'course description', price: 100, imageLink: 'https://linktoimage.com' }
   Output: { message: 'Course created successfully', courseId: "new course id" }
